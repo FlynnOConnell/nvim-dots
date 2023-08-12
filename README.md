@@ -9,12 +9,12 @@ chmod +x ./*
 
 ./install.sh
 
-// source init.lua within neovim
+# source init.lua within neovim
 nvim nvim/init.lua
 :so
 :q
 
-// source packer.lua within neovim
+# source packer.lua within neovim
 nvim nvim/lua/myvim/packer.lua
 :so
 :PackerSync
